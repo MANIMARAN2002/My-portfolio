@@ -1,0 +1,288 @@
+/* header */
+body{
+  background-color:white;
+  
+}
+.header{
+  display: flex;
+  flex-wrap:wrap;
+  width: 100%;
+  position: fixed;
+  height: auto;
+  top:0px;
+}
+.title1{
+  text-align: start;
+  padding-left:100px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  flex-basis: 50%;
+  flex:1 0 8rem;
+}
+.title1 span{
+  color: red;
+  
+}
+.title1:hover{
+  color: red;
+}
+.title1 span:hover{
+  color: black;
+}
+.title2{
+  flex-basis: 50%; 
+  padding-right: 80px;
+}
+.nav{
+  display: block;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+ 
+}
+.about,.edu,.skills,.project{
+  flex-basis: 25%;
+  text-decoration: none;
+  position: relative;
+  color: black;
+
+  
+}
+.about:hover,.edu:hover,.skills:hover,.project:hover{
+  color: red;
+}
+.header{
+  color: black;
+  background-color:aliceblue;
+}
+.header{
+  color: black;
+  background-color:aliceblue;
+}
+/* body */
+.main1{
+    background-image: url('../public/DSC_6272.JPG');
+    height: 100%;
+    width: 100%;
+    /* filter: blur(3px);
+  -webkit-filter: blur(3px); */
+    background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.lineUp{
+    color:black;
+    text-align: center;
+    place-content:center ;
+    font-size: 48px;
+    height: 600px;
+    padding-top: 320px;
+    margin-left: 250px; 
+    font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+}
+/* lineup class and keyframes */
+.lineUp {
+    animation: 3s anim-lineUp ease-out;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+.about1{
+  display:flex;
+  padding: 10px 150px 10px 150px;
+  background-color: aliceblue;
+  font-family: "Gabarito", sans-serif;
+  
+}
+.ab1{
+  flex-basis: 50%;
+  font-size: 24px;
+  
+}
+.gitico,.fbico,.inico,.insico{
+  text-decoration: none;
+  color: #000;
+}
+.fbico:hover{
+  color: #405DE6;
+}
+.inico:hover{
+  color: #405DE6;
+}
+.insico:hover{
+  color:#C13584;
+}
+.gitico:hover{
+  color: grey;
+}
+.ab2{
+  flex-basis: 50%;
+  text-align: start;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.skill1{
+  display:flex;
+  padding: 10px 150px 10px 150px;
+  font-family: "Gabarito", sans-serif;
+}
+.sk1{
+  flex-basis: 50%;
+  font-size: 24px;
+}
+
+.sk2{
+  flex-basis: 50%;
+  font-size: 18px;
+}
+.java,.html,.css,.js,.react{
+  display: flex;
+ 
+} 
+.javaico,.jsico,.htmlico,.cssico,.rico{
+  flex-basis: 50%;
+  font-size: 40px;
+  padding-top: 20px;
+  
+}
+.javaico:hover{
+  color: red;
+}
+.htmlico:hover{
+  color: orange;
+}
+.cssico:hover{
+  color:#004DCF;
+}
+.jsico:hover{
+  color: yellow;
+}
+.rico:hover{
+  color: skyblue;
+}
+
+.education1{
+  background-color: aliceblue;
+  padding: 10px 100px 10px 100px;
+  font-family: "Gabarito", sans-serif;
+  font-size: 18px;
+}
+.educontain{
+  display: flex;
+  gap: 1rem;
+ 
+}
+.edup{
+  font-size: 24px;
+}
+.edu1,.edu2,.edu3{
+  flex-basis: 33.3%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.project1{
+  padding: 10px 100px 10px 100px;
+  font-family: "Gabarito", sans-serif;
+  font-size: 18px;
+}
+.procontain{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  
+}
+.pro1,.pro2,.pro3{
+  flex-basis: 33.3%;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+.ld{
+  text-decoration: none;
+  color: #000;
+  background-color: skyblue;
+  padding: 8px;
+  border-radius: 20px;
+
+}
+.ld:hover{
+  color: aliceblue;
+}
+/* footer */
+footer{
+  background-color: aliceblue;
+  width: 100hv;
+}
+.footer{
+  display: flex;
+}
+.f1{
+  flex-basis: 33.3%;
+  padding: 20px;
+}
+.f2{
+  flex-basis: 33.3%;
+  padding: 20px;
+
+}
+.navf ol a{
+  text-decoration: none;
+  margin-left: -70px;
+  color: #000;
+}
+.f3{
+  flex-basis: 33.3%;
+  padding: 20px;
+}
+.formcontent{
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: solid black 3px ;
+  border-style:dotted ;
+}
+.f3na{
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+.f3em{
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+.f3ph{
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+.f3but{
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  background-color: skyblue;
+}
+.f3but:hover{
+  color: aliceblue;
+}
